@@ -2,16 +2,16 @@
 
 1. **Install Docker:** Follow the instructions [here](https://docs.docker.com/engine/install/) to install Docker.
 
-2. **Start the Project:** Run the following command to start the project using Docker Compose:
+2. **Initial Setup the Project:** Run the following command to start the project using following script (and brew a coffee it might take sevral minutes.):
+
+   ```
+    sh scripts/setup.sh
+   ```
+
+3. **Run the project:** From Next time onward please run the project using:
 
    ```
    docker compose up
    ```
 
-3. **Initialize the Database:** If this is your first time setting up the project, run the following script to initialize the database:
-
-   ```
-   sh scripts/init_db.sh
-   ```
-
-4. **Access the APIs:** You can now access the APIs as described in the API documentation.
+4. **Access the APIs:** You can now access the APIs as described in the API documentation _api_docs.md_ file.
